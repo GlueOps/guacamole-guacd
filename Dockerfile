@@ -1,4 +1,4 @@
-FROM docker.io/guacamole/guacd:1.5.5
+FROM docker.io/guacamole/guacd:1.6.0
 USER root
 RUN apk add --no-cache \
     font-noto \
