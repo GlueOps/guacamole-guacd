@@ -1,4 +1,4 @@
-FROM docker.io/guacamole/guacd:1.5.5@sha256:38232cae271361ef53db46faf5c49fe64049a1320a05b82c597425b69d6ce77e
+FROM docker.io/guacamole/guacd:1.6.0@sha256:8974eaa9ba32f713daf311e7cc8cd7e4cdfba1edea39eed75524e78ef4b08f4f
 USER root
 RUN apk add --no-cache \
     font-noto \
